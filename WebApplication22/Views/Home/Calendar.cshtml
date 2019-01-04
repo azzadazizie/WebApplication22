@@ -14,12 +14,27 @@
         </tr>
         <tr>
             <td>Event</td>
-            <td> <button type="button">I'm in!</button> </td>
+            <td> <button onclick="addOne()"type="button">I'm in!</button> </td>
+            <td>
+                <p><span id="thisone">0</span></p>
+                <script type="text/javascript">
+                    function doit() {
+
+                    }
+
+                    function addOne() {
+                        var foo = document.getElementById('thisone').innerHTML = foo;
+                        foo++;
+                        document.getElementById('thisone').innerHTML = foo;
+                    }
+
+                </script>
+            </td>
         </tr>
         <tr>
             <td>Event</td>
             <td> <button type="button">I'm in!</button> </td>
         </tr>
     </table>
+    </center>
 
-</center>
